@@ -46,7 +46,7 @@ func removeTestDir() {
 // createDB creates a new Scribble database.
 func createDB() error {
 	var err error
-	if db, err = scribble.New(database, nil); err != nil {
+	if db, err = New(database, nil); err != nil {
 		return err
 	}
 	return nil

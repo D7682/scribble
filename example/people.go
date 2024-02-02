@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/D7682/scribble"
+	"github.com/brianvoe/gofakeit/v6"
 )
 
 // Person defines a simple person struct
